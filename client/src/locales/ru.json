@@ -1,0 +1,57 @@
+{
+  "Registration": "Регистрация",
+  "SignUp":"Зарегистрироваться",
+  "HaveAccount": "Уже имеется аккаунт",
+  "NoAccount": "Нет аккаунта",
+  "Login": "Логин",
+  "Email": "Email",
+  "Password": "Пароль",
+  "Enter": "Войти",
+  "Logout": "Выйти",
+
+  "Songs": "Песни",
+  "NoSongs": "Песни не найдены",
+  "Search": "Поиск",
+
+  "Title": "Название",
+  "Artist": "Музыкант",
+  "Genre": "Жанр",
+  "Album": "Альбом",
+  "AlbumImageURL": "URL обложки альбома",
+  "YoutubeID": "Youtube ID",
+
+  "Create": "Создать",
+  "SongMetadata": "Метаданные песни",
+  "SongStructure": "Структура песн",
+  "Tabs": "Табы",
+  "Lyrics": "Лирика",
+  "SetBookmark": "Добавить в закладки",
+  "UnsetBookmark": "Удалить из закладок",
+
+  "Edit": "Редактировать",
+  "Save": "Сохранить",
+
+  "Day": "День",
+  "Night": "Ночь",
+
+  "Back": "Назад",
+  "Forward": "Вперед",
+
+  "SmthGotWrong": "Что-то пошло не так",
+  "PasswordLengthShouldBeMoreThan": "Длина пароля должна быть больше",
+  "EnterPassword": "Введите пароль",
+  "EnterEmail": "Введите email",
+  "RequiredField": "Обязательное поле",
+
+  "LogoutMsg": "Вы разлогинились",
+  "NetworkErrorMsg": "Проверьте подключение",
+  "TokenExpired": "Время сессии закончилось",
+  "Unauthorized": "Не аутентифицированный вход",
+  "TokenError": "Токен не найден",
+  "CreateSongFail": "Ошибка при сохранение песни",
+  "LoginExists": "Логин уже существует",
+  "WrongPassword": "Неправильный пароль",
+  "UserNotExist": "Пользователь не существует",
+  "GetAllBookmarked": "Искать среди закладок",
+  "GetAll": "Искать среди всех песен"
+}

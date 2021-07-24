@@ -1,0 +1,19 @@
+  $white: #f0f0f0;
+  $light-grey: #e4e4e4;
+  $black: #111111;
+  $dark-grey: #272727;
+  $bg: $white;
+  $txt: $black;
+  $dark-opacity: 0;
+  $light-opacity: 1;
+
+
+  @mixin theme($light-theme: true){
+  @if($light-theme){
+    background: $light-grey;
+    color: $black;
+  } @else{
+    background: $dark-grey;
+    color: $white;
+  }
+}

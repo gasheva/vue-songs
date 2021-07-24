@@ -1,0 +1,57 @@
+{
+  "Registration": "Registration",
+  "SignUp":"Sign up",
+  "HaveAccount": "Already have account?",
+  "NoAccount": "Don't have account",
+  "Login": "Login",
+  "Email": "Email",
+  "Password": "Password",
+  "Enter": "Enter",
+  "Logout": "Logout",
+
+  "Songs": "Songs",
+  "NoSongs": "No songs",
+  "Search": "Search",
+
+  "Title": "Title",
+  "Artist": "Artist",
+  "Genre": "Genre",
+  "Album": "Album",
+  "AlbumImageURL": "Album Image URL",
+  "YoutubeID": "Youtube ID",
+
+  "Create": "Create",
+  "SongMetadata": "Song Metadata",
+  "SongStructure": "Song Structure",
+  "Tabs": "Tabs",
+  "Lyrics": "Lyrics",
+  "SetBookmark": "Set bookmark",
+  "UnsetBookmark": "Unset bookmark",
+
+  "Edit": "Edit",
+  "Save": "Save",
+
+  "Day": "Day",
+  "Night": "Night",
+
+  "Back": "Back",
+  "Forward": "Forward",
+
+  "SmthGotWrong": "Something got wrong",
+  "PasswordLengthShouldBeMoreThan": "Password length should be more than",
+  "EnterPassword": "Enter password",
+  "EnterEmail": "Enter email",
+  "RequiredField": "Required field",
+
+  "LogoutMsg": "You signed off",
+  "NetworkErrorMsg": "Check yout connection",
+  "TokenExpired": "Token expired",
+  "Unauthorized": "Unauthorized",
+  "TokenError": "Token error",
+  "CreateSongFail": "Fail in song creating",
+  "LoginExists": "Login has already existed",
+  "WrongPassword": "Wrong password",
+  "UserNotExist": "User does not exist",
+  "GetAllBookmarked": "Get all bookmarked",
+  "GetAll": "Bookmarks"
+}

@@ -1,0 +1,120 @@
+@import 'config';
+:root{
+  box-sizing: border-box;
+}
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+body{
+  background-color: $bg;
+  font-family: Arial, Helvetica, sans-serif;
+  & input{
+    width: 100%;
+  }
+}
+body *+*{
+  // margin-top: 1.5em;
+}
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.nav-menu__content{
+  display: flex;
+  flex-direction: row;
+  padding: 0.4em;
+  background-color: $gray;
+  list-style-type: none;
+  position: relative;
+}
+//--NAVIGATION--//
+@media(min-width: $lg){
+  .nav-menu__content{
+    & > li + li{
+      margin-left: 1em;
+    }
+    & > li{
+      margin-top: 0;
+      & > a{
+        display: block;
+        padding: .5em 1em;
+        background-color: $red;
+        color: $font-color;
+        text-decoration: none;
+      }
+    }
+    & li:last-child{
+      margin-left: auto;
+      & a{
+        background-color: darken($red, 10%);
+      }
+    }
+  }
+}
+
+//--MAIN--//
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (min-width: 50em){
+  .main{
+    flex-direction: row;
+  }
+}
+.card{
+  margin-bottom: 1em;
+  border-radius: 5px;
+  background-color: $gray; 
+  color: $white;
+  
+  & > .card-header{
+    background-color: $red;
+    border-radius: 5px 5px 0 0;
+    & > h4{
+      margin-top: 0;
+    }
+  }
+  & > .card-body{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    & > *{
+      margin: 0 1em 1em;
+    }
+    & > .input-wrapper{
+      flex: 4 40%
+    }
+    & > .img-wrapper{
+      flex: 6 60%;
+      // overflow: hidden;
+      & > img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }  
+}
+@media (min-width: 50em){
+  .card > .card-body{
+    flex-direction: row;
+  }
+}
+.input-wrapper > .input + .input{
+    margin-top: 1em;
+}
+
+.card > .card-body.structure{
+  flex-direction: column;
+}
+ 
+.left{
+  flex: 2 50%;
+  margin-right: 1em;
+}
+.right{
+  flex: 1 30%;
+}
